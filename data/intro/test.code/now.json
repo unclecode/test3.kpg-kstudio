@@ -1,0 +1,22 @@
+{
+    "version": 2,
+    "name": "test3.kpg-kstudio",
+    "builds": [
+        {
+            "src": "*.html",
+            "use": "@now/static"
+        },
+        {
+            "src": "*.css",
+            "use": "@now/static"
+        },
+        {
+            "src": "*.js",
+            "use": "@now/static"
+        },
+        {
+            "src": "*.md",
+            "use": "@now/md"
+        }
+    ]
+}
